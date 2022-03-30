@@ -19,5 +19,4 @@ from rest_framework import authentication
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include('authentication.urls', namespace='authentication')),
 ]
