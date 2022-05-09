@@ -42,6 +42,10 @@ INSTALLED_APPS = [
     'ckeditor_uploader',
     'taggit',
     'taggit_serializer',
+    'hashtag',
+    'profiles',
+    'post',
+    'comments',
 ]
 
 REST_FRAMEWORK = {
@@ -98,7 +102,7 @@ TEMPLATES = [
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mytestdb',
+        'NAME': 'postgres',
         'USER': 'postgres',
         'PASSWORD': '20041014',
         'HOST': 'localhost',
